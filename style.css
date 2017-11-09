@@ -68,3 +68,7 @@ figure {
 .django, .rails {
 	width: 136.25px;
 }
+
+.cta__small a:hover {
+    text-decoration: none;
+}
