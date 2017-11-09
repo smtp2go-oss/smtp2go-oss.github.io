@@ -1,70 +1,179 @@
+<!docttype html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn why smtp2go is the reliable choice for marketers, travelers and developers to send their emails from anywhere. Try our (forever) free plan."/>
-    <title>smtp2go - email delivery done right</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="layout.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
-  </head>
-  <body>
-    <div class="container">
-      <!-- Navbar: -->
-      <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <div class="logo"> 
-            <a href="/">
-                <img src="logo.png">
-            </a> 
-            </div>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="https://github.com/smtp2go-oss">Github</a></li>
-            <li><a href="https://www.smtp2go.com">Website</a></li>
-          </ul>
-        </div>
-      </nav>
-      <!-- End Navbar -->
-      <div class="jumbotron gradient">
-        <div class="jumbo-title">
-          <h1>SMTP2GO</h1>
-          <h2>Handy Libraries for Sending Emails</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-6 lib-listing">
-              <h2>We have libraries in:</h2>
-              <div class="pull-left">
-                <ul>
-                  <li><a href="https://github.com/smtp2go-oss/smtp2go-python">Python</a></li>
-                  <li><a href="https://github.com/smtp2go-oss/smtp2go-ruby">Ruby</a></li>
-                  <li><a href="https://github.com/smtp2go-oss/smtp2go-rust">Rust</a></li>
-                  <li><a href="https://github.com/smtp2go-oss/smtp2go-rails">Rails</a></li>
-                  <li><a href="https://github.com/smtp2go-oss/smtp2go-django">Django</a></li>
-                  <li><a href="https://github.com/smtp2go-oss/smtp2go-go">Go</a></li>
-                </ul>
-              </div>
-          </div>
-          <div class="col-md-6">
-            <div class="container">
-                <h2>Ready to get started?</h2>
-                <p>Try smtp2go free for as long as you like:</p>
-                <a href="https://www.smtp2go.com/pricing">
-                  <button type="button" class="btn btn-default btn-lg btn-block">Sign up</button>
-                </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-inverse">
-        <div class="navbar-footer">
-        <p class="text-center header-footer-text" style="color:#fff;margin:15px;">
-        &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> - SMTP2GO</p>
-        </div>
-      </nav>
-    </div>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Learn why smtp2go is the reliable choice for marketers, travelers and developers to send their emails from anywhere. Try our (forever) free plan.">
+		<title>smtp2go - email delivery done right</title>
+		<link rel="stylesheet" href="https://www.smtp2go.com/wp-content/cache/autoptimize/css/autoptimize_8aacfaa6d4d617425f0f8e54378926fb.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="imgs/favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body class="customer-success">
+		<nav class="global-nav" role="navigation">
+			<div class="page-container">
+				<div class="global-nav__brand"> 
+					<a class="global-nav__logo" href="https://www.smtp2go.com" target="_blank">SMTP2GO</a>
+				</div>
+				<ul class="global-nav__list">
+					<li class="global-nav__list--item primary nav-success">
+						<!--<a href="/">Home</a>-->
+					</li>
+					<li class="global-nav__list--item primary nav-faq">
+						<a href="https://github.com/smtp2go-oss" target="_blank">View on GitHub</a>
+					</li>
+					<li class="global-nav__list--item primary nav-pricing last-primary">
+						<a class="button-primary button-outline" href="https://app.smtp2go.com" target="_blank">Log In</a>
+						<a class="button-primary button-signup" data-plan-id="700" href="https://www.smtp2go.com/pricing" target="_blank">Sign Up</a>
+					</li>
+				</ul>
+				<a class="nav-more is-closed" href="javascript:void(0);"></a>
+			</div>
+		</nav>
+		<header class="page-header">
+			<div class="page-container">
+				<h1 class="page-header__title">SMTP2GO Libraries</h1>
+				<p class="page-header__lead">Handy Libraries for Sending Emails</p>
+			</div>
+		</header>
+		<section class="success-quotes" style="padding-top: 1.9375em; padding-bottom: 2.6em;">
+			<div class="container">
+				<div class="success-quotes-slideshow success-carousel">
+					<div class="success-block"> 
+						<div class="success-quote" >
+							<figure style="margin-bottom: .5em; min-height: 89px;">
+								<img class="lang-logo" src="imgs/python-logo.png" width="86%">
+							</figure>	
+							<h3>Python</h3>
+							<p class="success-quote-lead">Python library to facilitate interations with smtp2go API.</p>
+						</div>
+						<div class="signature-container">
+							<a href="https://github.com/smtp2go-oss/smtp2go-python" class=" button button-primary" style="margin-bottom: 1.2em" target="_blank">View on GitHub</a>
+							<a href="https://www.smtp2go.com/setupguide/python/" target="_blank" class="link">Read the Setup Guide</a>
+						</div>
+					</div>
+					<div class="success-block">
+						<div class="success-quote" >
+							<figure style="margin-bottom: .5em; min-height: 89px; padding-top: 1em;">
+								<img class="lang-logo django" src="imgs/django-logo.png" width="39%">
+							</figure>	
+							<h3>Django</h3>
+							<p class="success-quote-lead">Python/Django wrapper for interfacing with the smtp2go API.</p>
+						</div>
+						<div class="signature-container">
+							<a href="https://github.com/smtp2go-oss/smtp2go-django" target="_blank" class="button button-primary">View on GitHub</a>
+							<a href="https://www.smtp2go.com/setupguide/django/" target="_blank" class="link">Read the Setup Guide</a>
+						</div>
+					</div>
+					<div class="success-block">
+						<div class="success-quote" > 
+							<figure style="margin-bottom: .5em; min-height: 89px;">
+								<img class="lang-logo rails" src="imgs/rails-logo.png" width="39%">
+							</figure>	
+							<h3>Rails</h3>
+							<p class="success-quote-lead">Ruby on Rails library for interfacing with the smtp2go API.</p>
+						</div>
+						<div class="signature-container">
+							<a href="https://github.com/smtp2go-oss/smtp2go-rails" class=" button button-primary" target="_blank">View on GitHub</a>
+							<a href="https://www.smtp2go.com/setupguide/rubyonrails/" target="_blank" class="link">Read the Setup Guide</a>
+						</div>
+					</div>
+					<div class="success-block"> 
+						<div class="success-quote" >
+							<figure style="margin-bottom: .5em; min-height: 89px;">
+								<img class="lang-logo" src="imgs/Ruby-logo.png" width="55%">
+							</figure>
+							<h3>Ruby</h3>
+							<p class="success-quote-lead">Library for interfacing with the smtp2go API.</p>
+						</div>
+						<div class="signature-container">
+							<a href="https://github.com/smtp2go-oss/smtp2go-ruby" class=" button button-primary" target="_blank">View on GitHub</a>
+							<a href="https://www.smtp2go.com/setupguide/ruby/" target="_blank" class="link">Read the Setup Guide</a>
+						</div>
+					</div>
+					<div class="success-block">
+						<div class="success-quote" >
+							<figure  style="margin-bottom: .5em; min-height: 89px;" >
+								<img class="lang-logo" src="imgs/rust-logo.png" width="29.5%">
+							</figure>	
+							<h3>Rust</h3>
+							<p class="success-quote-lead">Rust wrapper around the SMTP2GO /email/send API endpoint.</p>
+						</div>
+						<div class="signature-container">
+							<a href="https://github.com/smtp2go-oss/smtp2go-rust" target="_blank" class=" button button-primary">View on GitHub</a>
+							<!--<a href="https://www.smtp2go.com/setupguide/" target="_blank" class="link">Read the Setup Guide</a>-->
+							<p style="height: 19px;margin-bottom: 0"></p>
+						</div>
+					</div>
+
+
+					<div class="success-block">
+						<div class="success-quote" >
+							<figure style="margin-bottom: .5em; min-height: 89px;">
+								<img class="lang-logo" src="imgs/go-logo.png" width="20%">
+							</figure>	
+							<h3>Go</h3>
+							<p class="success-quote-lead">Go wrapper around the SMTP2GO /email/send API endpoint.</p>
+						</div>
+						<div class="signature-container">
+							<a href="https://github.com/smtp2go-oss/smtp2go-go" target="_blank" class=" button button-primary">View on GitHub</a>
+							<!--<a href="https://www.smtp2go.com/setupguide/" class="link">Read the Setup Guide</a>-->
+							<p style="height: 19px;margin-bottom: 0"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cta cta-c">
+			<h2 class="cta__title">Ready for better email delivery?</h2>
+			<p class="cta__lead">Try SMTP2GO free for as long as you like:</p>
+			<a href="https://www.smtp2go.com/pricing" class="cta__button" target="_blank">Try SMTP2GO Free →</a>
+			<small class="cta__small">Paid plans available for over 1,000 emails/month.
+			</small>
+		</section>
+		<footer class="page-footer page-group">
+			<div class="page-container">
+				<ul class="page-footer__primary">
+					<li class="mobile-footer-title">Service</li>
+					<li><a href="https://www.smtp2go.com/tour" target="_blank">Product Tour</a></li>
+					<li><a href="https://www.smtp2go.com/customer-success" target="_blank">Customer Success</a></li>
+					<li><a href="https://www.smtp2go.com/faq" target="_blank">FAQ</a></li>
+					<li><a href="https://www.smtp2go.com/pricing" target="_blank">Pricing</a></li>
+					<li><a href="https://support.smtp2go.com/hc/en-gb" target="_blank">Support</a></li>
+					<li><a href="https://www.smtp2go.com/blog" target="_blank">Blog</a></li>
+					<li class="mobile-footer-inc"><a href="https://www.smtp2go.com/setup" target="_blank">Setup</a></li>
+					<li class="mobile-footer-inc"><a href="http://smtp2gostatus.com/" target="_blank">Status</a></li>
+					<li class="mobile-footer-exc"><a href="https://www.smtp2go.com/contact" target="_blank">Contact Us</a></li>
+				</ul>
+				<ul class="page-footer__secondary">
+					<li class="mobile-footer-title">Company</li>
+					<li><a href="https://www.smtp2go.com/privacy" target="_blank">Privacy</a></li>
+					<li><a href="https://www.smtp2go.com/terms" target="_blank">Terms</a></li>
+					<li><a href="https://www.smtp2go.com/about" target="_blank">About</a></li>
+					<li class="mobile-footer-exc"><a href="https://www.smtp2go.com/setup" target="_blank">Setup</a></li>
+					<li><a href="https://partners.smtp2go.com/" target="_blank">Partners</a></li>
+					<li><a href="https://www.smtp2go.com/jobs" target="_blank">Jobs</a></li>
+					<li><a href="https://twitter.com/smtp2go/" target="_blank">Twitter</a></li>
+					<li class="mobile-footer-exc"><a href="http://smtp2gostatus.com/" target="_blank">Status</a></li>
+					<li class="mobile-footer-inc"><a href="https://www.smtp2go.com/contact" target="_blank">Contact Us</a></li>
+					<li class="copyright">©<span class="year-current">2017</span> SMTP2GO</li>
+				</ul>
+			</div>
+			<div class="page-footer-form">
+				<span class="footer-logotypes"> 
+					<img class="maawg-short" src="https://www.smtp2go.com/wp-content/themes/smtp2go/images/maawg-short.jpg" alt="Messaging Malware Mobile Anti-Abuse Working Group" title="Messaging Malware Mobile Anti-Abuse Working Group"> 
+					<img src="https://www.smtp2go.com/wp-content/themes/smtp2go/images/footer-deloitte.png" alt="Deloitte Technology Fast 500" title="Deloitte Technology Fast 500"> 
+					<a target="_blank" href="https://www.mcafeesecure.com/RatingVerify?ref=www.smtp2go.com">
+						<img src="https://www.smtp2go.com/wp-content/themes/smtp2go/images/mcafee.gif" title="McAfee SECURE sites" alt="McAfee SECURE sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams" oncontextmenu="alert('Copying Prohibited by Law - McAfee SECURE is a Trademark of McAfee, Inc.'); return false;">
+					</a> 
+					<a href="https://privacy.truste.com/privacy-seal/validation?rid=9e40d447-31bc-4516-b268-d637db5a6dfa" target="_blank">
+						<img style="border: none" src="https://privacy-policy.truste.com/privacy-seal/seal?rid=9e40d447-31bc-4516-b268-d637db5a6dfa" alt="TRUSTe">
+					</a><br> 
+					<img class="maawg-long" style="margin-top: .75em;" src="https://www.smtp2go.com/wp-content/themes/smtp2go/images/maawg-long.jpg" alt="Messaging Malware Mobile Anti-Abuse Working Group" title="Messaging Malware Mobile Anti-Abuse Working Group"> 
+				</span>
+			</div>
+		</footer>
+	</body>
 </html>

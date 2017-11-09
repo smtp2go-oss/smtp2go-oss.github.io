@@ -1,0 +1,70 @@
+/*butttons*/
+a.button.button-primary {
+	margin-bottom: 1.2em;
+}
+
+/*links*/
+a.link {
+	font-size: small;
+	color: #6c6c6c;
+  font-weight: 600;
+	display: block;
+}
+
+/*cards*/
+.success-block:not(.shortquote) {
+	cursor: auto; 
+}
+
+/*media queries*/
+@media screen and (min-width: 48.0625em) {
+	.success-quotes-slideshow:not(.slick-on) .success-block:not(.shortquote):hover {
+			box-shadow: 0 6px 10px #ebebeb;
+			-webkit-transform: scale(1);
+			transform: scale(1);
+	}
+}
+
+@media screen and (min-width: 37.5em) {
+
+.page-header:before, .testimonial-large:before, .page-infrastructure:before, .page-header-contact:before, .page-header:after, .testimonial-large:after, .page-infrastructure:after, .page-header-contact:after {
+	animation: none;
+	height: 0;
+	opacity: 0;
+	display: none;
+	
+	}
+}
+
+.success-block:not(.shortquote) {
+    cursor: auto;
+    padding-top: 124px;
+}
+
+h3 {
+	margin-top: 10px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 106px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.lang-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-height: 70px;
+    width: auto;
+}
+
+.django, .rails {
+	width: 136.25px;
+}
